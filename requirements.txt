@@ -1,0 +1,7 @@
+numpy
+pandas
+matplotlib
+scikit-learn
+notebook==6.5.6
+tensorflow
+pydot
