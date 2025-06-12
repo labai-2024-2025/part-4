@@ -5,3 +5,7 @@ scikit-learn
 notebook==6.5.6
 tensorflow
 pydot
+xgboost
+shap
+seaborn
+graphviz

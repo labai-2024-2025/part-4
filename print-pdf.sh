@@ -25,5 +25,5 @@ for nb in *.ipynb; do
         continue
     fi
 
-    decktape rise "http://127.0.0.1:8889/notebooks/$nb?token=$token" -s 1440x900 "$out" --chrome-arg=--disable-web-security --chrome-arg=--disable-dev-shm-usage --chrome-path="/Applications/Brave Browser.app/Contents/MacOS/Brave Browser"
+    decktape rise "http://127.0.0.1:8888/notebooks/$nb?token=$token" -s 1440x900 "$out" --chrome-arg=--disable-web-security --chrome-arg=--disable-dev-shm-usage --chrome-path="/Applications/Brave Browser.app/Contents/MacOS/Brave Browser"
 done
